@@ -55,8 +55,7 @@ func main() {
 	}
 
 	for i := 0; i < len(divided); i++ {
-		fmt.Println(divided[i])
-		fmt.Println(" \n")
+		fmt.Println("\nGroup " + fmt.Sprint(i+1) + "\n" + strings.Join(divided[i], ", "))
 	}
 
 	// fmt.Printf("%v", divided)
